@@ -1,0 +1,104 @@
+project:
+  type: website
+  preview:
+    port: 8000
+
+highlight-style: ayu
+code-annotations: hover
+
+metadata-files:
+  - _sidebar.yml
+
+website:
+  title: "Tiktek"
+  description: "Tiktek offers expert consulting in Data Science, Data Engineering, Machine Learning, and AI."
+  favicon: logo.svg
+
+  # search
+  search:
+    location: navbar
+    type: overlay
+
+  # options
+  reader-mode: false
+  twitter-card: true
+  back-to-top-navigation: true
+  repo-url: https://github.com/tiktek-ai
+  repo-actions: [edit, issue]
+  repo-branch: main
+  repo-subdir: docs
+  issue-url: https://github.com/tiktek-ai/info/issues
+
+  # footer
+  page-footer:
+    border: false
+    left: ""
+    right:
+      - icon: github
+        href: https://github.com/tiktek-ai
+
+  # nav
+  navbar:
+    logo: logo.svg
+    left:
+      - text: "Overview"
+        href: index.qmd
+      - sidebar:reference
+      - text: "Help"
+        menu:
+          - text: "Ask a question"
+            icon: chat-right-text
+            href: https://github.com/tiktek-ai/info/issues
+          - text: "FAQ"
+            icon: question-circle
+            href: faq/index.qmd
+
+    tools:
+      - icon: github
+        href: https://github.com/tiktek-ai
+        text: Tiktek repository
+
+  sidebar:
+    - id: ""
+    - id: reference
+      title: "Projects"
+      style: "docked"
+      collapse-level: 2
+      contents:
+        - section: Data Science
+          contents:
+            - reference/ds/index.qmd
+        - section: Data Engineering
+          contents:
+            - reference/de/index.qmd
+        - section: Machine Learning
+          contents:
+            - reference/ml/index.qmd
+
+
+    - id: faq
+      title: "Frequently asked questions"
+      style: "docked"
+      contents:
+        - section: faq/index.qmd
+          contents:
+            - faq/custom-step.qmd
+
+format:
+  html:
+    theme:
+      light: [flatly, theme-light.scss]
+      dark: [darkly, theme-dark.scss]
+    toc: true
+
+quartodoc:
+  package: info
+  title: Projects
+  sidebar: reference/_sidebar.yml
+  dynamic: true
+  render_interlinks: false
+  options:
+    member_options:
+      signature_name: short
+
+   
