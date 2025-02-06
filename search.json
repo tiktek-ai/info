@@ -21,13 +21,14 @@
     "text": "Our expertise spans various domains, illustrating our commitment to delivering data solutions that drive impactful business results:\n\n\n\nInterpretable Logistic Model for Payday Loan Underwriting: Developed a logistic model to streamline loan underwriting with interpretability, supporting compliance and enhancing customer trust.\nFraud Detection for E-commerce: Utilized XGBoost to identify fraudulent activities on an e-commerce platform, protecting transactions and user security.\nFraud Prevention Dashboard: Built a real-time heatmap and dashboard to monitor fraud alerts, facilitating prompt intervention and reducing financial risk.\nCustomer Churn Prediction: Constructed models to predict customer churn, allowing for proactive retention strategies to increase customer lifetime value.\n\n\n\n\n\nRelevance Ranking: Developed relevance-ranking models that personalize content and product recommendations, enhancing user engagement.\nLocation Recommendation for a Travel Company: Built a recommendation system to suggest travel destinations, increasing user satisfaction.\n\n\n\n\n\nUser Engagement: Designed models to optimize email targeting and content for increased engagement, retention, and customer loyalty.\n\n\n\n\n\nLocation Data Ingestion ETL Pipeline: Developed an ETL pipeline for comprehensive location data ingestion, ensuring data consistency and accessibility.\nUser-Device-Cookie Graph Construction: Created a data pipeline linking users, devices, and cookies, supporting targeted marketing and engagement.\nAd-Hoc Analysis for Fraud and Abuse: Performed in-depth analyses to identify root causes of fraud and abuse, delivering actionable insights to prevent future occurrences.\n\nOur experienced team and end-to-end capabilities ensure seamless integration of data science, engineering, analytics, and cutting-edge AI, driving meaningful business outcomes across industries."
   },
   {
-    "objectID": "faq/index.html",
-    "href": "faq/index.html",
-    "title": "Frequently asked questions",
+    "objectID": "reference/ds/index.html",
+    "href": "reference/ds/index.html",
+    "title": "Data Science Projects",
     "section": "",
-    "text": "How can I find you?\nPlease contact us at xxx-xxx-xxxx, you can create a custom step.\n\n\n\n\n Back to top",
+    "text": "Here is the list of DS Projects\n\n\n\n\n Back to top",
     "crumbs": [
-      "Frequently asked questions"
+      "Data Science",
+      "Data Science Projects"
     ]
   },
   {
@@ -39,6 +40,38 @@
     "crumbs": [
       "Frequently asked questions",
       "How to create your own transformer"
+    ]
+  },
+  {
+    "objectID": "faq/index.html",
+    "href": "faq/index.html",
+    "title": "Frequently asked questions",
+    "section": "",
+    "text": "How can I find you?\nPlease contact us at xxx-xxx-xxxx, you can create a custom step.\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Frequently asked questions"
+    ]
+  },
+  {
+    "objectID": "reference/de/index.html",
+    "href": "reference/de/index.html",
+    "title": "Data Engineering Projects",
+    "section": "",
+    "text": "Here is the list of DE Projects\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Data Engineering",
+      "Data Engineering Projects"
+    ]
+  },
+  {
+    "objectID": "reference/ml/index.html",
+    "href": "reference/ml/index.html",
+    "title": "Machine Learning Projects",
+    "section": "",
+    "text": "Here is the list of ML Projects\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Machine Learning",
+      "Machine Learning Projects"
     ]
   }
 ]
