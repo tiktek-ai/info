@@ -1,0 +1,42 @@
+name: documentation
+
+on:
+  push:
+    branches: [main]
+  pull_request: null
+
+permissions:
+  contents: write
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11.8" # TODO(deepyaman): Update Python version when Ibis supports `dask>=2024.4.1`, which added https://github.com/dask/dask/pull/11035.
+          cache: "pip"
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Install docs dependencies
+        run: |
+          pip install '.[doc]'
+
+      - name: Build Docs
+        run: |
+          pushd docs
+          quartodoc build
+          quarto render
+          popd
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/_site
