@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Our Firm’s Vision and Expertise",
+    "section": "",
+    "text": "Our firm specializes in delivering comprehensive, industry-spanning data solutions designed to unlock critical insights, drive innovation, and support strategic decision-making. We provide end-to-end services in Data Science, Data Engineering, Predictive Modeling, and LLM Applications, creating impactful, data-driven solutions tailored to client needs.\n\n\nOur core business solutions encompass key areas essential to modern, data-driven operations:\n\n\nLeveraging statistical and machine learning techniques through frameworks like scikit-learn, XGBoost, LightGBM, PyTorch, and TensorFlow, we generate insights, forecast trends, and tackle complex business challenges with accuracy and speed.\n\n\n\nWe design and implement robust data pipelines, scalable architectures, and ETL (extract, transform, load) processes using Apache Airflow, Spark, Hive, and Presto, ensuring that data remains accessible, reliable, and ready for analytics at scale.\n\n\n\nOur team performs comprehensive descriptive, diagnostic, predictive, and prescriptive analyses in Python and R. We further translate these insights into clear, actionable visuals and dashboards using advanced visualization tools, empowering stakeholders to make confident, data-informed decisions.\n\n\n\nWe provide end-to-end LLM solutions, covering data curation, training, fine-tuning, distillation, deployment, inference, and advanced applications such as retrieval-augmented generation (RAG) and agent-based models.\n\n\n\n\nOur expertise spans various domains, illustrating our commitment to delivering data solutions that drive impactful business results:\n\n\n\nInterpretable Logistic Model for Payday Loan Underwriting: Developed a logistic model to streamline loan underwriting with interpretability, supporting compliance and enhancing customer trust.\nFraud Detection for E-commerce: Utilized XGBoost to identify fraudulent activities on an e-commerce platform, protecting transactions and user security.\nFraud Prevention Dashboard: Built a real-time heatmap and dashboard to monitor fraud alerts, facilitating prompt intervention and reducing financial risk.\nCustomer Churn Prediction: Constructed models to predict customer churn, allowing for proactive retention strategies to increase customer lifetime value.\n\n\n\n\n\nRelevance Ranking: Developed relevance-ranking models that personalize content and product recommendations, enhancing user engagement.\nLocation Recommendation for a Travel Company: Built a recommendation system to suggest travel destinations, increasing user satisfaction.\n\n\n\n\n\nUser Engagement: Designed models to optimize email targeting and content for increased engagement, retention, and customer loyalty.\n\n\n\n\n\nLocation Data Ingestion ETL Pipeline: Developed an ETL pipeline for comprehensive location data ingestion, ensuring data consistency and accessibility.\nUser-Device-Cookie Graph Construction: Created a data pipeline linking users, devices, and cookies, supporting targeted marketing and engagement.\nAd-Hoc Analysis for Fraud and Abuse: Performed in-depth analyses to identify root causes of fraud and abuse, delivering actionable insights to prevent future occurrences.\n\nOur experienced team and end-to-end capabilities ensure seamless integration of data science, engineering, analytics, and cutting-edge AI, driving meaningful business outcomes across industries."
+  },
+  {
+    "objectID": "index.html#business-solutions",
+    "href": "index.html#business-solutions",
+    "title": "Our Firm’s Vision and Expertise",
+    "section": "",
+    "text": "Our core business solutions encompass key areas essential to modern, data-driven operations:\n\n\nLeveraging statistical and machine learning techniques through frameworks like scikit-learn, XGBoost, LightGBM, PyTorch, and TensorFlow, we generate insights, forecast trends, and tackle complex business challenges with accuracy and speed.\n\n\n\nWe design and implement robust data pipelines, scalable architectures, and ETL (extract, transform, load) processes using Apache Airflow, Spark, Hive, and Presto, ensuring that data remains accessible, reliable, and ready for analytics at scale.\n\n\n\nOur team performs comprehensive descriptive, diagnostic, predictive, and prescriptive analyses in Python and R. We further translate these insights into clear, actionable visuals and dashboards using advanced visualization tools, empowering stakeholders to make confident, data-informed decisions.\n\n\n\nWe provide end-to-end LLM solutions, covering data curation, training, fine-tuning, distillation, deployment, inference, and advanced applications such as retrieval-augmented generation (RAG) and agent-based models."
+  },
+  {
+    "objectID": "index.html#project-experience",
+    "href": "index.html#project-experience",
+    "title": "Our Firm’s Vision and Expertise",
+    "section": "",
+    "text": "Our expertise spans various domains, illustrating our commitment to delivering data solutions that drive impactful business results:\n\n\n\nInterpretable Logistic Model for Payday Loan Underwriting: Developed a logistic model to streamline loan underwriting with interpretability, supporting compliance and enhancing customer trust.\nFraud Detection for E-commerce: Utilized XGBoost to identify fraudulent activities on an e-commerce platform, protecting transactions and user security.\nFraud Prevention Dashboard: Built a real-time heatmap and dashboard to monitor fraud alerts, facilitating prompt intervention and reducing financial risk.\nCustomer Churn Prediction: Constructed models to predict customer churn, allowing for proactive retention strategies to increase customer lifetime value.\n\n\n\n\n\nRelevance Ranking: Developed relevance-ranking models that personalize content and product recommendations, enhancing user engagement.\nLocation Recommendation for a Travel Company: Built a recommendation system to suggest travel destinations, increasing user satisfaction.\n\n\n\n\n\nUser Engagement: Designed models to optimize email targeting and content for increased engagement, retention, and customer loyalty.\n\n\n\n\n\nLocation Data Ingestion ETL Pipeline: Developed an ETL pipeline for comprehensive location data ingestion, ensuring data consistency and accessibility.\nUser-Device-Cookie Graph Construction: Created a data pipeline linking users, devices, and cookies, supporting targeted marketing and engagement.\nAd-Hoc Analysis for Fraud and Abuse: Performed in-depth analyses to identify root causes of fraud and abuse, delivering actionable insights to prevent future occurrences.\n\nOur experienced team and end-to-end capabilities ensure seamless integration of data science, engineering, analytics, and cutting-edge AI, driving meaningful business outcomes across industries."
+  },
+  {
+    "objectID": "faq/index.html",
+    "href": "faq/index.html",
+    "title": "Frequently asked questions",
+    "section": "",
+    "text": "How can I find you?\nPlease contact us at xxx-xxx-xxxx, you can create a custom step.\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Frequently asked questions"
+    ]
+  },
+  {
+    "objectID": "faq/custom-step.html",
+    "href": "faq/custom-step.html",
+    "title": "How to create your own transformer",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Frequently asked questions",
+      "How to create your own transformer"
+    ]
+  }
+]
